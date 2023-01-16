@@ -1,0 +1,13 @@
+body {
+  background: #2C3E50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #06a68e, #1fb70e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient( to right, #009b40, #1645a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+#resultado > div > div {
+  background-color: #272b33;
+  color: #fff;
+  border-radius: 10px;
+
+}
