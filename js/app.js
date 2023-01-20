@@ -11,14 +11,6 @@ window.onload = () => {
 
 function validarFormulario(e) {
     e.preventDefault();
-    // const terminoNombre = document.querySelector('#nombre').value;
-    // const terminoEspecie= document.querySelector('#especie').value;
-    // const terminoEstado = document.querySelector('#estado').value;
-    // const terminoGenero = document.querySelector('#genero').value;
-    // if(terminoNombre  === '' || terminoEstado  === '' || terminoGenero  === '' || terminoEspecie  === '') {
-    //     mostrarAlerta('Agrega un termino de busqueda');
-    //     return;
-    // }
     buscarImagenes();
 }
 
@@ -59,15 +51,7 @@ function buscarImagenes() {
                 mostrarAlerta('No hay resultados nuevos para tu busqueda');
         
     })
-    //             //  // Limpiar el paginador previo
-    //             //  setTimeout(() =>{
-    //             //     window.location = 'index.html';
-    //             //  }, 2000)
-    //                // Limpiar el paginador previo
   
-    //     }
-        
-    // })
 }
 
 // Generar que registra la cantidad de elementos de acuerdo a las paginas
